@@ -1,49 +1,41 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Historias De Usuario",
+    "slug": "historias-de-usuario",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1174,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 400,
+          "bottomRow": 940,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 890,
           "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Api1",
-              "name": "Api1",
-              "confirmBeforeExecute": false,
-              "pluginType": "SAAS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Page1_Find_variables1",
-              "name": "Find_variables1",
+              "id": "Historias De Usuario_SelectQuery",
+              "name": "SelectQuery",
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
               "jsonPathKeys": [
-                "Select1.filterText ? \"Roles\" : \"\"",
-                "Select1.filterText"
+                "data_table.pageSize",
+                "(data_table.pageNo - 1) * data_table.pageSize"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -51,7 +43,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Historias De Usuario",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -61,5 +53,5 @@
     "policies": []
   },
   "deleted": false,
-  "gitSyncId": "663844f27d832175e0e79afc_eb10489a-39fb-4f1b-a423-7cb4fd7a58f2"
+  "gitSyncId": "663847d27d832175e0e79b07_1721e0c5-02e8-4816-be64-beb91062c611"
 }

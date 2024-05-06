@@ -3,6 +3,10 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Historias De Usuario",
+      "isDefault": false
     }
   ],
   "viewMode": false,
